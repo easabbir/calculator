@@ -1,0 +1,32 @@
+What we did today?
+
+-Created github profile
+-Installed git in our pc
+
+-Created a repository in github
+-In our pc we learned the below commands.
+
+Step: 1
+Initialize git: git init
+
+One time setup
+git config --global user.name "Sam Smith"
+git config --global user.email "sam@example.com"
+
+Step: 2
+Adding remote repo: git remote add origin https://github.com/easabbir/batch21Demo.git
+
+listing remote repo: git remote -v
+
+Step:3
+git pull origin master --allow-unrelated-histories
+
+Step: 4 Add files
+git add *
+
+Step: 5 Commit
+git status
+git commit -m "first commit"
+
+Step: 6 Push code to repository to master
+git push -u origin master
